@@ -1,0 +1,9 @@
+sudo tlmgr install environ trimspaces tcolorbox sourcesanspro ifmtarg xifthen enumitem latinmodern-math
+
+kpsewhich --var-value TEXMFLOCAL
+
+
+sudo -H mktexlsr
+
+brew cask install texmaker
+brew cask install basictex
